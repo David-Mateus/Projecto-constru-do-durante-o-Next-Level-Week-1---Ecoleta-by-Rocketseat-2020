@@ -1,0 +1,48 @@
+/* :root referencia a raiz do documento */
+:root {
+    /* variavel que funciona como um atalho,
+       que sera utilizado de forma global */
+    --title-color: #000000a1;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* quando nao houver nome composto na fonte,
+é possivel chama-la sem o uso das aspas */
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    
+    background-image: linear-gradient(to right,rgba(86, 58, 211, 0.637), rgb(73, 38, 153) );
+
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    /* Remove o underline de todos os elementos "a" presentes */
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Ubuntu, sans-serif;
+    color: var(--title-color);
+}
+
+/* BOX MODEL = Modelo de caixa
+Toda caixa tem largura, altura, espaçamentos, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display),
+posicionamento, alinhamentos etc..
+*/
